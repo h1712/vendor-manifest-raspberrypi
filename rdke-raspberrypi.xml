@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <manifest>
-    <yocto version="kirkstone" />
+    <yocto version="wrynose" />
     <remote fetch="https://github.com/rdkcentral" name="rdkcentral" review="https://github.com/rdkcentral" />
     <remote fetch="https://git.yoctoproject.org" name="oe" review="https://git.yoctoproject.org" />
 
@@ -36,7 +36,7 @@
     </project>
 
     
-    <project groups="layers" name="meta-raspberrypi" path="rdke/vendor/soc/meta-raspberrypi" remote="oe" revision="ab5815a2ca0a460398878f77a7e39bc1a6dfe0bf" upstream="kirkstone">
+    <project groups="layers" name="meta-raspberrypi" path="rdke/vendor/soc/meta-raspberrypi" remote="oe" revision="wrynose" upstream="wrynose">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_BSP" />
     </project>
 
