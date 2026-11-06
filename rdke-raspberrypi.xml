@@ -5,7 +5,7 @@
     <remote fetch="https://github.com/h1712" name="h1712" />
     <remote fetch="https://git.yoctoproject.org" name="oe" review="https://git.yoctoproject.org" />
 
-    <project groups="buildscripts" name="build-scripts" path="scripts" remote="rdkcentral" revision="refs/tags/1.0.5">
+    <project groups="buildscripts" name="build-scripts" path="scripts" remote="h1712" revision="refs/heads/feature/RDKOSS-1199-wrynose">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_SCRIPTS" />
     </project>
 
@@ -27,7 +27,7 @@
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_OSS_VENDOR" />
     </project>
     
-    <project groups="layers" name="meta-vendor-raspberrypi-dev" path="rdke/vendor/meta-vendor-raspberrypi-dev" remote="rdkcentral" revision="refs/tags/4.15.0">
+    <project groups="layers" name="meta-vendor-raspberrypi-dev" path="rdke/vendor/meta-vendor-raspberrypi-dev" remote="h1712" revision="refs/heads/feature/RDKOSS-1199-wrynose">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_PLATFORM" />
         <annotation name="MANIFEST_EXPORT_PATH1" value="MANIFEST_PATH_BBLAYERS_TEMPLATE" />
     </project>
