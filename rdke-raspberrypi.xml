@@ -2,6 +2,7 @@
 <manifest>
     <yocto version="wrynose" />
     <remote fetch="https://github.com/rdkcentral" name="rdkcentral" review="https://github.com/rdkcentral" />
+    <remote fetch="https://github.com/h1712" name="h1712" />
     <remote fetch="https://git.yoctoproject.org" name="oe" review="https://git.yoctoproject.org" />
 
     <project groups="buildscripts" name="build-scripts" path="scripts" remote="rdkcentral" revision="refs/tags/1.0.5">
@@ -9,11 +10,11 @@
     </project>
 
     
-    <submanifest name="common" project="rdke-generic-manifest" manifest-name="rdke-common-layers.xml" path="rdke/common" remote="rdkcentral" revision="refs/tags/1.1.1">
+    <submanifest name="common" project="rdke-generic-manifest" manifest-name="rdke-common-layers.xml" path="rdke/common" remote="h1712" revision="refs/heads/feature/RDKOSS-1199-wrynose">
     </submanifest>
 
     
-    <submanifest name="configs" project="rdke-generic-manifest" manifest-name="rdke-configs-layers.xml" path="rdke/configs" remote="rdkcentral" revision="refs/tags/1.1.1">
+    <submanifest name="configs" project="rdke-generic-manifest" manifest-name="rdke-configs-layers.xml" path="rdke/configs" remote="h1712" revision="refs/heads/feature/RDKOSS-1199-wrynose">
     </submanifest>
 
     
